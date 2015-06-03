@@ -1,6 +1,12 @@
-﻿合并应该
-55555656  
-你好ok
+﻿    /**
+     * 找回密码页面
+     *
+     * @author wendaoming @create_at 2015-02-28 14:57
+     */
+    public function getPass ()
+    {
+        //页面表单异步检测
+        if (Request::ajax()) {
 
-第五行
-第六行
+        }
+    }
