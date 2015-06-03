@@ -10,3 +10,13 @@
 
         }
     }
+    
+    /**
+     * 保存我的资料
+     *
+     * @author wendaoming @create_at 2015-03-01 00:57
+     */
+    public function postInfo ()
+    {
+        return Response::json($response);
+    }
